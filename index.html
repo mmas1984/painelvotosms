@@ -3,18 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Painel Eleitoral Fortaleza 2024 - Análise de Votação por Bairro</title>
+    <title>Remix Painel Eleitoral Fortaleza 2024 - Análise de Votação por Bairro</title>
     <meta name="description" content="Dashboard executivo de Business Intelligence e análise exploratória completa de votação por bairro e candidato em Fortaleza 2024." />
-    <meta property="og:title" content="Painel Eleitoral Fortaleza 2024 - Análise de Votação por Bairro" />
+    <meta property="og:title" content="Remix Painel Eleitoral Fortaleza 2024 - Análise de Votação por Bairro" />
     <meta property="og:description" content="Dashboard executivo de Business Intelligence e análise exploratória completa de votação por bairro e candidato em Fortaleza 2024." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Trailing slash correction for GitHub Pages subpath relative assets -->
+    <script>
+      (function() {
+        if (
+          location.hostname.endsWith('github.io') &&
+          !location.pathname.endsWith('/') &&
+          !location.pathname.endsWith('.html')
+        ) {
+          location.replace(location.pathname + '/' + location.search + location.hash);
+        }
+      })();
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+      /* Pre-loader styling preventing blank white screen before React mounts */
+      #app-preloader {
+        min-height: 100vh;
+        background-color: #020617;
+        color: #f8fafc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        padding: 1.5rem;
+        text-align: center;
+      }
+      .preloader-card {
+        max-width: 420px;
+        width: 100%;
+        background-color: rgba(15, 23, 42, 0.85);
+        border: 1px solid rgba(51, 65, 85, 0.8);
+        border-radius: 1rem;
+        padding: 2rem 1.75rem;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+      }
+      .preloader-badge {
+        display: inline-block;
+        font-size: 0.65rem;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #60a5fa;
+        background: rgba(30, 58, 138, 0.5);
+        border: 1px solid rgba(59, 130, 246, 0.3);
+        padding: 0.25rem 0.6rem;
+        border-radius: 9999px;
+        margin-bottom: 0.85rem;
+      }
+      .preloader-spinner {
+        width: 2.25rem;
+        height: 2.25rem;
+        border: 3px solid rgba(59, 130, 246, 0.2);
+        border-top-color: #3b82f6;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+        margin: 1.25rem auto;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
   </head>
-  <body>
-    <div id="root"></div>
+  <body style="margin: 0; background-color: #020617;">
+    <div id="root">
+      <div id="app-preloader">
+        <div class="preloader-card">
+          <div class="preloader-badge">Elaborado Por Marcos Silveira</div>
+          <h2 style="font-size: 1.15rem; font-weight: 700; margin: 0 0 0.5rem 0; color: #ffffff;">
+            Painel Eleitoral 2024 / 2026
+          </h2>
+          <p style="font-size: 0.8rem; color: #94a3b8; margin: 0; line-height: 1.4;">
+            Carregando módulos cartográficos e controle de acesso...
+          </p>
+          <div class="preloader-spinner"></div>
+          <div id="preloader-fallback" style="display: none; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #334155;">
+            <p style="font-size: 0.75rem; color: #e2e8f0; margin-bottom: 0.75rem;">
+              Demorando para iniciar? Você pode acessar diretamente a versão executiva:
+            </p>
+            <a href="./dashboard.html" style="display: inline-block; padding: 0.5rem 1rem; font-size: 0.75rem; font-weight: 600; color: #ffffff; background: #2563eb; border-radius: 0.5rem; text-decoration: none;">
+              Abrir Dashboard Executivo HTML
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script timeout handler to prevent indefinite blank or stuck screens -->
+    <script>
+      setTimeout(function() {
+        var fallback = document.getElementById('preloader-fallback');
+        var preloader = document.getElementById('app-preloader');
+        if (preloader && fallback) {
+          fallback.style.display = 'block';
+        }
+      }, 3500);
+    </script>
+
     <script type="module" src="/src/main.tsx"></script>
     <noscript>
       <meta http-equiv="refresh" content="0; url=./dashboard.html" />

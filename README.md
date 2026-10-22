@@ -1,46 +1,52 @@
-# Painel Eleitoral Fortaleza 2024 — Análise de Votação por Bairro
+# Painel Eleitoral Fortaleza 2024 & Ceará 2026 — Inteligência de Dados
 
-Dashboard executivo de Business Intelligence e Data Analytics com os dados das Eleições Municipais de 2024 em Fortaleza/CE (586.560 votos, 54 candidatos, 111 bairros).
+Sistema executivo de Business Intelligence e Data Analytics eleitoral com controle de acesso RBAC, sincronização Google Drive, cartografia interativa (Bairros de Fortaleza 2024 e Municípios do Ceará 2026) e filtros dinâmicos de Cargo.
+
+**Elaborado Por Marcos Silveira**
 
 ---
 
-## Como Publicar no GitHub Pages Sem Erro de Tela Branca
+## 🛠️ Correção da Tela Branca no GitHub Pages
 
-O erro de **tela branca** no GitHub Pages geralmente ocorre por dois motivos:
-1. **Caminhos absolutos:** Os scripts buscam `/assets/...` na raiz do domínio em vez de `./assets/...` dentro do repositório (`https://usuario.github.io/repositorio/`). Isso já foi corrigido com `base: './'` no `vite.config.ts`.
-2. **Servidor estático sem build:** O GitHub Pages padrão tenta carregar arquivos `.tsx` diretamente sem compilá-los com o Vite.
+O problema de **tela branca** no GitHub Pages foi corrigido de forma abrangente com 4 camadas de proteção:
 
-### Opção 1: Publicação Automática via GitHub Actions (Recomendada)
-O repositório já inclui o arquivo de automação `.github/workflows/deploy.yml`.
+1. **Configuração Dinâmica do Base Path no Vite:** 
+   O `vite.config.ts` detecta automaticamente o nome do repositório no GitHub Actions (`process.env.GITHUB_REPOSITORY` e `process.env.BASE_PATH`), garantindo que os arquivos em `./assets/...` e `/<repo>/assets/...` sejam encontrados tanto com quanto sem barra final (`/`).
 
-1. Envie o código para o GitHub:
+2. **Ordem Correta no GitHub Actions (`.github/workflows/deploy.yml`):**
+   A ação `actions/configure-pages@v5` foi configurada para rodar **antes** do `npm run build`, exportando o `base_path` correto para o Vite compilar.
+
+3. **Arquivos `.nojekyll` e `404.html`:**
+   Adicionados na pasta `public/` e gerados no `dist/`, impedindo que o mecanismo Jekyll do GitHub Pages ignore pastas de ativos ou gere telas brancas em recargas de rota.
+
+4. **Splash Preloader e Fallback Automático:**
+   O `index.html` agora conta com um pré-carregador estilizado com a assinatura "Elaborado Por Marcos Silveira" e um temporizador que redireciona automaticamente para a versão executiva em caso de lentidão ou falha de rede.
+
+---
+
+### 🚀 Como Publicar Corretamente no GitHub Pages
+
+Para publicar seu painel sem erro:
+
+1. **Envie o código para o GitHub:**
    ```bash
    git add .
-   git commit -m "Publicação do painel eleitoral"
+   git commit -m "Correcao tela branca e painel atualizado"
    git push origin main
    ```
-2. No seu repositório no GitHub, acesse:
-   **Settings** > **Pages**
-3. Em **Build and deployment** > **Source**, selecione:
-   **GitHub Actions**
-4. O GitHub executará o build e publicará seu site automaticamente com endereço:
-   `https://<seu-usuario>.github.io/<nome-do-repositorio>/`
+
+2. **Ative o GitHub Actions nas configurações do repositório:**
+   - Acesse seu repositório no GitHub.
+   - Clique na aba **Settings** (Configurações) no topo.
+   - No menu lateral esquerdo, clique em **Pages**.
+   - Em **Build and deployment** > **Source**, mude de *"Deploy from a branch"* para **GitHub Actions**.
+
+3. **Pronto!** O GitHub Actions compilará e publicará o painel automaticamente na URL:
+   `https://<seu-usuario>.github.io/<seu-repositorio>/`
 
 ---
 
-### Opção 2: Publicação Manual da Pasta `dist`
-Se preferir gerar os arquivos compilados localmente e publicá-los:
-
-1. Gere o build de produção:
-   ```bash
-   npm run build
-   ```
-2. A pasta `dist/` conterá todo o site pronto para qualquer hospedagem estática.
-3. Você pode publicar a pasta `dist/` diretamente na branch `gh-pages` ou no branch raiz.
-
----
-
-### Opção 3: Usar o Arquivo Autocontido `dashboard.html`
-Se quiser um único arquivo que funcione 100% offline em qualquer navegador ou hospedagem simples sem depender de Node.js:
-- Abra ou publique diretamente o arquivo `dashboard.html` (disponível na raiz e em `/public/dashboard.html`).
-- Ele contém todos os 5.789 registros, estilos Tailwind e biblioteca ECharts incorporados.
+### 🔑 Credenciais Padrão do Controle de Acesso
+- **Administrador Master:** Usuário `master` | Senha `master123` *(Acesso irrestrito, gestão de usuários, senhas e sincronização Google Drive)*
+- **Analista de Dados:** Usuário `analista` | Senha `analista123`
+- **Operador Consulta:** Usuário `consulta` | Senha `consulta123`

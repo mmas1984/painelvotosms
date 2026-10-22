@@ -4,8 +4,16 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  // Support GitHub Pages subpath automatically:
+  // When deploying via GitHub Actions, GITHUB_REPOSITORY is "owner/repo-name"
+  // BASE_PATH can also be supplied by actions/configure-pages
+  const repoName = process.env.GITHUB_REPOSITORY ? process.env.GITHUB_REPOSITORY.split('/')[1] : '';
+  const base = process.env.BASE_PATH 
+    ? (process.env.BASE_PATH.endsWith('/') ? process.env.BASE_PATH : `${process.env.BASE_PATH}/`)
+    : (process.env.GITHUB_ACTIONS && repoName ? `/${repoName}/` : './');
+
   return {
-    base: './',
+    base,
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
