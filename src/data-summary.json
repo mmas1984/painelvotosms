@@ -1,0 +1,1792 @@
+{
+  "summary": {
+    "totalRows": 5789,
+    "totalVotos": 586560,
+    "candidatesCount": 54,
+    "bairrosCount": 111,
+    "minVotos": 1,
+    "maxVotos": 4978,
+    "avgVotos": "101.32",
+    "medianVotos": 41,
+    "stdDev": "235.44",
+    "statusAgg": {
+      "ELEITO": {
+        "count": 42,
+        "votos": 505267
+      },
+      "SUPLENTE": {
+        "count": 12,
+        "votos": 81293
+      }
+    },
+    "top10Candidates": [
+      {
+        "nome": "PRISCILA COSTA",
+        "numero": "22222",
+        "partido": "PL",
+        "status": "ELEITO",
+        "votosTotal": 36226,
+        "topBairro": "MESSEJANA",
+        "topBairroVotos": 1214,
+        "concentracaoTopBairro": "3.4%"
+      },
+      {
+        "nome": "GABRIEL BIOLOGIA",
+        "numero": "50555",
+        "partido": "PSOL",
+        "status": "ELEITO",
+        "votosTotal": 30682,
+        "topBairro": "ALDEOTA",
+        "topBairroVotos": 2243,
+        "concentracaoTopBairro": "7.3%"
+      },
+      {
+        "nome": "BELLA CARMELO",
+        "numero": "22022",
+        "partido": "PL",
+        "status": "ELEITO",
+        "votosTotal": 28138,
+        "topBairro": "ALDEOTA",
+        "topBairroVotos": 1838,
+        "concentracaoTopBairro": "6.5%"
+      },
+      {
+        "nome": "RONALDO MARTINS",
+        "numero": "10123",
+        "partido": "REPUBLICANOS",
+        "status": "ELEITO",
+        "votosTotal": 20288,
+        "topBairro": "MESSEJANA",
+        "topBairroVotos": 851,
+        "concentracaoTopBairro": "4.2%"
+      },
+      {
+        "nome": "EMANUEL ACRIZIO",
+        "numero": "70111",
+        "partido": "AVANTE",
+        "status": "ELEITO",
+        "votosTotal": 16083,
+        "topBairro": "CONJUNTO CEARÁ I",
+        "topBairroVotos": 2994,
+        "concentracaoTopBairro": "18.6%"
+      },
+      {
+        "nome": "GARDEL ROLIM",
+        "numero": "12333",
+        "partido": "PDT",
+        "status": "ELEITO",
+        "votosTotal": 16053,
+        "topBairro": "MESSEJANA",
+        "topBairroVotos": 996,
+        "concentracaoTopBairro": "6.2%"
+      },
+      {
+        "nome": "MARCEL COLARES",
+        "numero": "12000",
+        "partido": "PDT",
+        "status": "ELEITO",
+        "votosTotal": 15259,
+        "topBairro": "MESSEJANA",
+        "topBairroVotos": 4009,
+        "concentracaoTopBairro": "26.3%"
+      },
+      {
+        "nome": "ADAIL JR.",
+        "numero": "12777",
+        "partido": "PDT",
+        "status": "ELEITO",
+        "votosTotal": 14262,
+        "topBairro": "ANTÔNIO BEZERRA",
+        "topBairroVotos": 4971,
+        "concentracaoTopBairro": "34.9%"
+      },
+      {
+        "nome": "BRUNO MESQUITA",
+        "numero": "55789",
+        "partido": "PSD",
+        "status": "ELEITO",
+        "votosTotal": 14189,
+        "topBairro": "BELA VISTA",
+        "topBairroVotos": 1801,
+        "concentracaoTopBairro": "12.7%"
+      },
+      {
+        "nome": "ERICH DOUGLAS",
+        "numero": "55111",
+        "partido": "PSD",
+        "status": "ELEITO",
+        "votosTotal": 13250,
+        "topBairro": "TAUAPE",
+        "topBairroVotos": 547,
+        "concentracaoTopBairro": "4.1%"
+      }
+    ],
+    "top10Bairros": [
+      {
+        "bairro": "MESSEJANA",
+        "votosTotal": 20242,
+        "candidatoLider": "MARCEL COLARES",
+        "candidatoLiderVotos": 4009,
+        "candidatoLiderPerc": "19.8%"
+      },
+      {
+        "bairro": "CONJUNTO CEARÁ I",
+        "votosTotal": 17019,
+        "candidatoLider": "EMANUEL ACRIZIO",
+        "candidatoLiderVotos": 2994,
+        "candidatoLiderPerc": "17.6%"
+      },
+      {
+        "bairro": "MONDUBIM",
+        "votosTotal": 14205,
+        "candidatoLider": "ANA ARACAPÉ",
+        "candidatoLiderVotos": 2892,
+        "candidatoLiderPerc": "20.4%"
+      },
+      {
+        "bairro": "PREFEITO JOSÉ WALTER",
+        "votosTotal": 13827,
+        "candidatoLider": "CHIQUINHO DOS CARNEIROS",
+        "candidatoLiderVotos": 2061,
+        "candidatoLiderPerc": "14.9%"
+      },
+      {
+        "bairro": "ALDEOTA",
+        "votosTotal": 13775,
+        "candidatoLider": "GABRIEL BIOLOGIA",
+        "candidatoLiderVotos": 2243,
+        "candidatoLiderPerc": "16.3%"
+      },
+      {
+        "bairro": "BARRA DO CEARÁ",
+        "votosTotal": 13025,
+        "candidatoLider": "KÁTIA RODRIGUES",
+        "candidatoLiderVotos": 1211,
+        "candidatoLiderPerc": "9.3%"
+      },
+      {
+        "bairro": "JANGURUSSU",
+        "votosTotal": 12749,
+        "candidatoLider": "PPCELL",
+        "candidatoLiderVotos": 2266,
+        "candidatoLiderPerc": "17.8%"
+      },
+      {
+        "bairro": "ANTÔNIO BEZERRA",
+        "votosTotal": 12481,
+        "candidatoLider": "ADAIL JR.",
+        "candidatoLiderVotos": 4971,
+        "candidatoLiderPerc": "39.8%"
+      },
+      {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "votosTotal": 11421,
+        "candidatoLider": "PPCELL",
+        "candidatoLiderVotos": 3623,
+        "candidatoLiderPerc": "31.7%"
+      },
+      {
+        "bairro": "BOM JARDIM",
+        "votosTotal": 11019,
+        "candidatoLider": "PROFESSOR ENILSON",
+        "candidatoLiderVotos": 1421,
+        "candidatoLiderPerc": "12.9%"
+      }
+    ],
+    "topPartidos": [
+      {
+        "partido": "PDT",
+        "codigo": "12",
+        "candCount": 9,
+        "eleitos": 8,
+        "suplentes": 1,
+        "votos": 114214
+      },
+      {
+        "partido": "PL",
+        "codigo": "22",
+        "candCount": 5,
+        "eleitos": 5,
+        "suplentes": 0,
+        "votos": 89867
+      },
+      {
+        "partido": "PSD",
+        "codigo": "55",
+        "candCount": 7,
+        "eleitos": 4,
+        "suplentes": 3,
+        "votos": 76910
+      },
+      {
+        "partido": "AVANTE",
+        "codigo": "70",
+        "candCount": 5,
+        "eleitos": 3,
+        "suplentes": 2,
+        "votos": 49744
+      },
+      {
+        "partido": "PSOL",
+        "codigo": "50",
+        "candCount": 2,
+        "eleitos": 2,
+        "suplentes": 0,
+        "votos": 39773
+      },
+      {
+        "partido": "PT",
+        "codigo": "13",
+        "candCount": 4,
+        "eleitos": 3,
+        "suplentes": 1,
+        "votos": 32978
+      },
+      {
+        "partido": "PRD / PRD25",
+        "codigo": "25",
+        "candCount": 4,
+        "eleitos": 3,
+        "suplentes": 1,
+        "votos": 32412
+      },
+      {
+        "partido": "REPUBLICANOS",
+        "codigo": "10",
+        "candCount": 2,
+        "eleitos": 2,
+        "suplentes": 0,
+        "votos": 28638
+      },
+      {
+        "partido": "UNIÃO",
+        "codigo": "44",
+        "candCount": 3,
+        "eleitos": 2,
+        "suplentes": 1,
+        "votos": 24867
+      },
+      {
+        "partido": "PSB",
+        "codigo": "40",
+        "candCount": 3,
+        "eleitos": 2,
+        "suplentes": 1,
+        "votos": 20712
+      }
+    ]
+  },
+  "allCandidates": [
+    {
+      "nome": "PRISCILA COSTA",
+      "numero": "22222",
+      "partido": "PL",
+      "codPartido": "22",
+      "status": "ELEITO",
+      "votosTotal": 36226,
+      "topBairro": "MESSEJANA",
+      "topBairroVotos": 1214,
+      "concentracaoTopBairro": "3.4"
+    },
+    {
+      "nome": "GABRIEL BIOLOGIA",
+      "numero": "50555",
+      "partido": "PSOL",
+      "codPartido": "50",
+      "status": "ELEITO",
+      "votosTotal": 30682,
+      "topBairro": "ALDEOTA",
+      "topBairroVotos": 2243,
+      "concentracaoTopBairro": "7.3"
+    },
+    {
+      "nome": "BELLA CARMELO",
+      "numero": "22022",
+      "partido": "PL",
+      "codPartido": "22",
+      "status": "ELEITO",
+      "votosTotal": 28138,
+      "topBairro": "ALDEOTA",
+      "topBairroVotos": 1838,
+      "concentracaoTopBairro": "6.5"
+    },
+    {
+      "nome": "RONALDO MARTINS",
+      "numero": "10123",
+      "partido": "REPUBLICANOS",
+      "codPartido": "10",
+      "status": "ELEITO",
+      "votosTotal": 20288,
+      "topBairro": "MESSEJANA",
+      "topBairroVotos": 851,
+      "concentracaoTopBairro": "4.2"
+    },
+    {
+      "nome": "EMANUEL ACRIZIO",
+      "numero": "70111",
+      "partido": "AVANTE",
+      "codPartido": "70",
+      "status": "ELEITO",
+      "votosTotal": 16083,
+      "topBairro": "CONJUNTO CEARÁ I",
+      "topBairroVotos": 2994,
+      "concentracaoTopBairro": "18.6"
+    },
+    {
+      "nome": "GARDEL ROLIM",
+      "numero": "12333",
+      "partido": "PDT",
+      "codPartido": "12",
+      "status": "ELEITO",
+      "votosTotal": 16053,
+      "topBairro": "MESSEJANA",
+      "topBairroVotos": 996,
+      "concentracaoTopBairro": "6.2"
+    },
+    {
+      "nome": "MARCEL COLARES",
+      "numero": "12000",
+      "partido": "PDT",
+      "codPartido": "12",
+      "status": "ELEITO",
+      "votosTotal": 15259,
+      "topBairro": "MESSEJANA",
+      "topBairroVotos": 4009,
+      "concentracaoTopBairro": "26.3"
+    },
+    {
+      "nome": "ADAIL JR.",
+      "numero": "12777",
+      "partido": "PDT",
+      "codPartido": "12",
+      "status": "ELEITO",
+      "votosTotal": 14262,
+      "topBairro": "ANTÔNIO BEZERRA",
+      "topBairroVotos": 4971,
+      "concentracaoTopBairro": "34.9"
+    },
+    {
+      "nome": "BRUNO MESQUITA",
+      "numero": "55789",
+      "partido": "PSD",
+      "codPartido": "55",
+      "status": "ELEITO",
+      "votosTotal": 14189,
+      "topBairro": "BELA VISTA",
+      "topBairroVotos": 1801,
+      "concentracaoTopBairro": "12.7"
+    },
+    {
+      "nome": "ERICH DOUGLAS",
+      "numero": "55111",
+      "partido": "PSD",
+      "codPartido": "55",
+      "status": "ELEITO",
+      "votosTotal": 13250,
+      "topBairro": "TAUAPE",
+      "topBairroVotos": 547,
+      "concentracaoTopBairro": "4.1"
+    },
+    {
+      "nome": "PAULO MARTINS",
+      "numero": "12444",
+      "partido": "PDT",
+      "codPartido": "12",
+      "status": "ELEITO",
+      "votosTotal": 12935,
+      "topBairro": "SERRINHA",
+      "topBairroVotos": 1394,
+      "concentracaoTopBairro": "10.8"
+    },
+    {
+      "nome": "APOLLO VICZ",
+      "numero": "55011",
+      "partido": "PSD",
+      "codPartido": "55",
+      "status": "ELEITO",
+      "votosTotal": 12772,
+      "topBairro": "MESSEJANA",
+      "topBairroVotos": 513,
+      "concentracaoTopBairro": "4.0"
+    },
+    {
+      "nome": "EUDES BRINGEL",
+      "numero": "55000",
+      "partido": "PSD",
+      "codPartido": "55",
+      "status": "ELEITO",
+      "votosTotal": 12283,
+      "topBairro": "HENRIQUE JORGE",
+      "topBairroVotos": 3188,
+      "concentracaoTopBairro": "26.0"
+    },
+    {
+      "nome": "TONY BRITO",
+      "numero": "55777",
+      "partido": "PSD",
+      "codPartido": "55",
+      "status": "SUPLENTE",
+      "votosTotal": 12177,
+      "topBairro": "CONJUNTO CEARÁ I",
+      "topBairroVotos": 2517,
+      "concentracaoTopBairro": "20.7"
+    },
+    {
+      "nome": "MÁRCIO MARTINS",
+      "numero": "44444",
+      "partido": "UNIÃO",
+      "codPartido": "44",
+      "status": "ELEITO",
+      "votosTotal": 12044,
+      "topBairro": "JARDIM AMÉRICA",
+      "topBairroVotos": 2119,
+      "concentracaoTopBairro": "17.6"
+    },
+    {
+      "nome": "KÁTIA RODRIGUES",
+      "numero": "12123",
+      "partido": "PDT",
+      "codPartido": "12",
+      "status": "ELEITO",
+      "votosTotal": 11957,
+      "topBairro": "ÁLVARO WEYNE",
+      "topBairroVotos": 1738,
+      "concentracaoTopBairro": "14.5"
+    },
+    {
+      "nome": "DR. LUCIANO GIRÃO",
+      "numero": "12500",
+      "partido": "PDT",
+      "codPartido": "12",
+      "status": "ELEITO",
+      "votosTotal": 11527,
+      "topBairro": "EDSON QUEIROZ",
+      "topBairroVotos": 892,
+      "concentracaoTopBairro": "7.7"
+    },
+    {
+      "nome": "JORGE PINHEIRO",
+      "numero": "45000",
+      "partido": "PSDB",
+      "codPartido": "45",
+      "status": "ELEITO",
+      "votosTotal": 11355,
+      "topBairro": "ALDEOTA",
+      "topBairroVotos": 724,
+      "concentracaoTopBairro": "6.4"
+    },
+    {
+      "nome": "WELLINGTON SABÓIA",
+      "numero": "20000",
+      "partido": "PODE",
+      "codPartido": "20",
+      "status": "ELEITO",
+      "votosTotal": 11014,
+      "topBairro": "BELA VISTA",
+      "topBairroVotos": 670,
+      "concentracaoTopBairro": "6.1"
+    },
+    {
+      "nome": "PPCELL",
+      "numero": "12800",
+      "partido": "PDT",
+      "codPartido": "12",
+      "status": "ELEITO",
+      "votosTotal": 10999,
+      "topBairro": "CONJUNTO PALMEIRAS",
+      "topBairroVotos": 3623,
+      "concentracaoTopBairro": "32.9"
+    },
+    {
+      "nome": "JÂNIO HENRIQUE",
+      "numero": "12111",
+      "partido": "PDT",
+      "codPartido": "12",
+      "status": "ELEITO",
+      "votosTotal": 10967,
+      "topBairro": "CONJUNTO ESPERANÇA",
+      "topBairroVotos": 1731,
+      "concentracaoTopBairro": "15.8"
+    },
+    {
+      "nome": "JULIERME SENA",
+      "numero": "22123",
+      "partido": "PL",
+      "codPartido": "22",
+      "status": "ELEITO",
+      "votosTotal": 10391,
+      "topBairro": "MONTE CASTELO",
+      "topBairroVotos": 529,
+      "concentracaoTopBairro": "5.1"
+    },
+    {
+      "nome": "ANA ARACAPÉ",
+      "numero": "70123",
+      "partido": "AVANTE",
+      "codPartido": "70",
+      "status": "ELEITO",
+      "votosTotal": 10322,
+      "topBairro": "MONDUBIM",
+      "topBairroVotos": 2892,
+      "concentracaoTopBairro": "28.0"
+    },
+    {
+      "nome": "RAIMUNDO FILHO",
+      "numero": "12999",
+      "partido": "PDT",
+      "codPartido": "12",
+      "status": "SUPLENTE",
+      "votosTotal": 10255,
+      "topBairro": "BELA VISTA",
+      "topBairroVotos": 1796,
+      "concentracaoTopBairro": "17.5"
+    },
+    {
+      "nome": "GERMANO HE MAN",
+      "numero": "33024",
+      "partido": "MOBILIZA",
+      "codPartido": "33",
+      "status": "ELEITO",
+      "votosTotal": 10159,
+      "topBairro": "VILA UNIÃO",
+      "topBairroVotos": 4758,
+      "concentracaoTopBairro": "46.8"
+    },
+    {
+      "nome": "PROFESSOR ENILSON",
+      "numero": "23456",
+      "partido": "CIDADANIA",
+      "codPartido": "23",
+      "status": "ELEITO",
+      "votosTotal": 10155,
+      "topBairro": "BOM JARDIM",
+      "topBairroVotos": 1421,
+      "concentracaoTopBairro": "14.0"
+    },
+    {
+      "nome": "AGLAYLSON",
+      "numero": "13120",
+      "partido": "PT",
+      "codPartido": "13",
+      "status": "ELEITO",
+      "votosTotal": 9603,
+      "topBairro": "VILA VELHA",
+      "topBairroVotos": 565,
+      "concentracaoTopBairro": "5.9"
+    },
+    {
+      "nome": "MICHEL LINS",
+      "numero": "25555",
+      "partido": "PRD / PRD25",
+      "codPartido": "25",
+      "status": "ELEITO",
+      "votosTotal": 9563,
+      "topBairro": "RODOLFO TEÓFILO",
+      "topBairroVotos": 1297,
+      "concentracaoTopBairro": "13.6"
+    },
+    {
+      "nome": "CHIQUINHO DOS CARNEIROS",
+      "numero": "25456",
+      "partido": "PRD / PRD25",
+      "codPartido": "25",
+      "status": "ELEITO",
+      "votosTotal": 9552,
+      "topBairro": "PLANALTO AYRTON SENNA",
+      "topBairroVotos": 4978,
+      "concentracaoTopBairro": "52.1"
+    },
+    {
+      "nome": "CARLA DO ACILON",
+      "numero": "27123",
+      "partido": "DC",
+      "codPartido": "27",
+      "status": "ELEITO",
+      "votosTotal": 9413,
+      "topBairro": "MESSEJANA",
+      "topBairroVotos": 1166,
+      "concentracaoTopBairro": "12.4"
+    },
+    {
+      "nome": "ADRIANA GERÔNIMO",
+      "numero": "50777",
+      "partido": "PSOL",
+      "codPartido": "50",
+      "status": "ELEITO",
+      "votosTotal": 9091,
+      "topBairro": "ALDEOTA",
+      "topBairroVotos": 720,
+      "concentracaoTopBairro": "7.9"
+    },
+    {
+      "nome": "LEO COUTO",
+      "numero": "40123",
+      "partido": "PSB",
+      "codPartido": "40",
+      "status": "ELEITO",
+      "votosTotal": 8975,
+      "topBairro": "CAIS DO PORTO",
+      "topBairroVotos": 969,
+      "concentracaoTopBairro": "10.8"
+    },
+    {
+      "nome": "PEDRO MATOS",
+      "numero": "70222",
+      "partido": "AVANTE",
+      "codPartido": "70",
+      "status": "ELEITO",
+      "votosTotal": 8868,
+      "topBairro": "ALDEOTA",
+      "topBairroVotos": 518,
+      "concentracaoTopBairro": "5.8"
+    },
+    {
+      "nome": "BENIGNO JUNIOR",
+      "numero": "10456",
+      "partido": "REPUBLICANOS",
+      "codPartido": "10",
+      "status": "ELEITO",
+      "votosTotal": 8350,
+      "topBairro": "VILA UNIÃO",
+      "topBairroVotos": 1184,
+      "concentracaoTopBairro": "14.2"
+    },
+    {
+      "nome": "MARI LACERDA",
+      "numero": "13131",
+      "partido": "PT",
+      "codPartido": "13",
+      "status": "ELEITO",
+      "votosTotal": 8034,
+      "topBairro": "MONDUBIM",
+      "topBairroVotos": 573,
+      "concentracaoTopBairro": "7.1"
+    },
+    {
+      "nome": "INSPETOR ALBERTO",
+      "numero": "22122",
+      "partido": "PL",
+      "codPartido": "22",
+      "status": "ELEITO",
+      "votosTotal": 7913,
+      "topBairro": "PREFEITO JOSÉ WALTER",
+      "topBairroVotos": 258,
+      "concentracaoTopBairro": "3.3"
+    },
+    {
+      "nome": "CLAUDIO LIMA",
+      "numero": "70369",
+      "partido": "AVANTE",
+      "codPartido": "70",
+      "status": "SUPLENTE",
+      "votosTotal": 7838,
+      "topBairro": "CRISTO REDENTOR",
+      "topBairroVotos": 2322,
+      "concentracaoTopBairro": "29.6"
+    },
+    {
+      "nome": "JULIO BRIZZI",
+      "numero": "13321",
+      "partido": "PT",
+      "codPartido": "13",
+      "status": "ELEITO",
+      "votosTotal": 7767,
+      "topBairro": "ALDEOTA",
+      "topBairroVotos": 403,
+      "concentracaoTopBairro": "5.2"
+    },
+    {
+      "nome": "DR VICENTE",
+      "numero": "13123",
+      "partido": "PT",
+      "codPartido": "13",
+      "status": "SUPLENTE",
+      "votosTotal": 7574,
+      "topBairro": "MESSEJANA",
+      "topBairroVotos": 374,
+      "concentracaoTopBairro": "4.9"
+    },
+    {
+      "nome": "BÁ",
+      "numero": "40000",
+      "partido": "PSB",
+      "codPartido": "40",
+      "status": "ELEITO",
+      "votosTotal": 7528,
+      "topBairro": "MANOEL SÁTIRO",
+      "topBairroVotos": 1093,
+      "concentracaoTopBairro": "14.5"
+    },
+    {
+      "nome": "MARCELO MENDES",
+      "numero": "22333",
+      "partido": "PL",
+      "codPartido": "22",
+      "status": "ELEITO",
+      "votosTotal": 7199,
+      "topBairro": "ALDEOTA",
+      "topBairroVotos": 947,
+      "concentracaoTopBairro": "13.2"
+    },
+    {
+      "nome": "PROFESSOR AGUIAR TOBA",
+      "numero": "25123",
+      "partido": "PRD / PRD25",
+      "codPartido": "25",
+      "status": "ELEITO",
+      "votosTotal": 7008,
+      "topBairro": "BONSUCESSO",
+      "topBairroVotos": 2189,
+      "concentracaoTopBairro": "31.2"
+    },
+    {
+      "nome": "TIA FRANCISCA",
+      "numero": "55555",
+      "partido": "PSD",
+      "codPartido": "55",
+      "status": "SUPLENTE",
+      "votosTotal": 6924,
+      "topBairro": "MANOEL SÁTIRO",
+      "topBairroVotos": 1148,
+      "concentracaoTopBairro": "16.6"
+    },
+    {
+      "nome": "SOLDADO NOELIO",
+      "numero": "44190",
+      "partido": "UNIÃO",
+      "codPartido": "44",
+      "status": "ELEITO",
+      "votosTotal": 6851,
+      "topBairro": "CONJUNTO CEARÁ I",
+      "topBairroVotos": 366,
+      "concentracaoTopBairro": "5.3"
+    },
+    {
+      "nome": "MARCELO TCHELA",
+      "numero": "70200",
+      "partido": "AVANTE",
+      "codPartido": "70",
+      "status": "SUPLENTE",
+      "votosTotal": 6633,
+      "topBairro": "BELA VISTA",
+      "topBairroVotos": 440,
+      "concentracaoTopBairro": "6.6"
+    },
+    {
+      "nome": "NILO DANTAS",
+      "numero": "25777",
+      "partido": "PRD / PRD25",
+      "codPartido": "25",
+      "status": "SUPLENTE",
+      "votosTotal": 6289,
+      "topBairro": "BOM JARDIM",
+      "topBairroVotos": 1159,
+      "concentracaoTopBairro": "18.4"
+    },
+    {
+      "nome": "LUIZ PAUPINA",
+      "numero": "36789",
+      "partido": "AGIR",
+      "codPartido": "36",
+      "status": "ELEITO",
+      "votosTotal": 6037,
+      "topBairro": "MESSEJANA",
+      "topBairroVotos": 1752,
+      "concentracaoTopBairro": "29.0"
+    },
+    {
+      "nome": "RENE PESSOA",
+      "numero": "44777",
+      "partido": "UNIÃO",
+      "codPartido": "44",
+      "status": "SUPLENTE",
+      "votosTotal": 5972,
+      "topBairro": "ALDEOTA",
+      "topBairroVotos": 335,
+      "concentracaoTopBairro": "5.6"
+    },
+    {
+      "nome": "CÔNSUL DO POVO",
+      "numero": "55300",
+      "partido": "PSD",
+      "codPartido": "55",
+      "status": "SUPLENTE",
+      "votosTotal": 5315,
+      "topBairro": "LAGOA REDONDA",
+      "topBairroVotos": 815,
+      "concentracaoTopBairro": "15.3"
+    },
+    {
+      "nome": "IRMÃO LÉO",
+      "numero": "11678",
+      "partido": "PP",
+      "codPartido": "11",
+      "status": "ELEITO",
+      "votosTotal": 5213,
+      "topBairro": "MONDUBIM",
+      "topBairroVotos": 1241,
+      "concentracaoTopBairro": "23.8"
+    },
+    {
+      "nome": "MARCOS PAULO",
+      "numero": "11111",
+      "partido": "PP",
+      "codPartido": "11",
+      "status": "ELEITO",
+      "votosTotal": 4992,
+      "topBairro": "CONJUNTO PALMEIRAS",
+      "topBairroVotos": 3190,
+      "concentracaoTopBairro": "63.9"
+    },
+    {
+      "nome": "DAYANE COSTA",
+      "numero": "20012",
+      "partido": "PODE",
+      "codPartido": "20",
+      "status": "SUPLENTE",
+      "votosTotal": 4803,
+      "topBairro": "VICENTE PINZON",
+      "topBairroVotos": 1354,
+      "concentracaoTopBairro": "28.2"
+    },
+    {
+      "nome": "JOHN MONTEIRO",
+      "numero": "40789",
+      "partido": "PSB",
+      "codPartido": "40",
+      "status": "SUPLENTE",
+      "votosTotal": 4209,
+      "topBairro": "MUCURIPE",
+      "topBairroVotos": 1287,
+      "concentracaoTopBairro": "30.6"
+    },
+    {
+      "nome": "DUMMAR",
+      "numero": "27999",
+      "partido": "DC",
+      "codPartido": "27",
+      "status": "SUPLENTE",
+      "votosTotal": 3304,
+      "topBairro": "JARDIM DAS OLIVEIRAS",
+      "topBairroVotos": 675,
+      "concentracaoTopBairro": "20.4"
+    }
+  ],
+  "allBairros": [
+    {
+      "bairro": "MESSEJANA",
+      "votosTotal": 20242,
+      "candidatoLider": "MARCEL COLARES",
+      "candidatoLiderVotos": 4009,
+      "candidatoLiderPerc": 19.805355202055132
+    },
+    {
+      "bairro": "CONJUNTO CEARÁ I",
+      "votosTotal": 17019,
+      "candidatoLider": "EMANUEL ACRIZIO",
+      "candidatoLiderVotos": 2994,
+      "candidatoLiderPerc": 17.59210294376873
+    },
+    {
+      "bairro": "MONDUBIM",
+      "votosTotal": 14205,
+      "candidatoLider": "ANA ARACAPÉ",
+      "candidatoLiderVotos": 2892,
+      "candidatoLiderPerc": 20.359028511087647
+    },
+    {
+      "bairro": "PREFEITO JOSÉ WALTER",
+      "votosTotal": 13827,
+      "candidatoLider": "CHIQUINHO DOS CARNEIROS",
+      "candidatoLiderVotos": 2061,
+      "candidatoLiderPerc": 14.905619440225646
+    },
+    {
+      "bairro": "ALDEOTA",
+      "votosTotal": 13775,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 2243,
+      "candidatoLiderPerc": 16.28312159709619
+    },
+    {
+      "bairro": "BARRA DO CEARÁ",
+      "votosTotal": 13025,
+      "candidatoLider": "KÁTIA RODRIGUES",
+      "candidatoLiderVotos": 1211,
+      "candidatoLiderPerc": 9.297504798464491
+    },
+    {
+      "bairro": "JANGURUSSU",
+      "votosTotal": 12749,
+      "candidatoLider": "PPCELL",
+      "candidatoLiderVotos": 2266,
+      "candidatoLiderPerc": 17.773943054357204
+    },
+    {
+      "bairro": "ANTÔNIO BEZERRA",
+      "votosTotal": 12481,
+      "candidatoLider": "ADAIL JR.",
+      "candidatoLiderVotos": 4971,
+      "candidatoLiderPerc": 39.82853937985738
+    },
+    {
+      "bairro": "CONJUNTO PALMEIRAS",
+      "votosTotal": 11421,
+      "candidatoLider": "PPCELL",
+      "candidatoLiderVotos": 3623,
+      "candidatoLiderPerc": 31.72226600122581
+    },
+    {
+      "bairro": "BOM JARDIM",
+      "votosTotal": 11019,
+      "candidatoLider": "PROFESSOR ENILSON",
+      "candidatoLiderVotos": 1421,
+      "candidatoLiderPerc": 12.895907069607043
+    },
+    {
+      "bairro": "VILA VELHA",
+      "votosTotal": 9980,
+      "candidatoLider": "PRISCILA COSTA",
+      "candidatoLiderVotos": 767,
+      "candidatoLiderPerc": 7.685370741482966
+    },
+    {
+      "bairro": "EDSON QUEIROZ",
+      "votosTotal": 9890,
+      "candidatoLider": "PRISCILA COSTA",
+      "candidatoLiderVotos": 967,
+      "candidatoLiderPerc": 9.777553083923154
+    },
+    {
+      "bairro": "HENRIQUE JORGE",
+      "votosTotal": 9676,
+      "candidatoLider": "EUDES BRINGEL",
+      "candidatoLiderVotos": 3188,
+      "candidatoLiderPerc": 32.947498966515084
+    },
+    {
+      "bairro": "BONSUCESSO",
+      "votosTotal": 9583,
+      "candidatoLider": "PROFESSOR AGUIAR TOBA",
+      "candidatoLiderVotos": 2189,
+      "candidatoLiderPerc": 22.842533653344464
+    },
+    {
+      "bairro": "PARANGABA",
+      "votosTotal": 9506,
+      "candidatoLider": "PRISCILA COSTA",
+      "candidatoLiderVotos": 840,
+      "candidatoLiderPerc": 8.836524300441827
+    },
+    {
+      "bairro": "VILA UNIÃO",
+      "votosTotal": 9074,
+      "candidatoLider": "GERMANO HE MAN",
+      "candidatoLiderVotos": 4758,
+      "candidatoLiderPerc": 52.43553008595988
+    },
+    {
+      "bairro": "BELA VISTA",
+      "votosTotal": 9001,
+      "candidatoLider": "BRUNO MESQUITA",
+      "candidatoLiderVotos": 1801,
+      "candidatoLiderPerc": 20.008887901344295
+    },
+    {
+      "bairro": "GRANJA PORTUGAL",
+      "votosTotal": 8946,
+      "candidatoLider": "EMANUEL ACRIZIO",
+      "candidatoLiderVotos": 918,
+      "candidatoLiderPerc": 10.261569416498995
+    },
+    {
+      "bairro": "PASSARÉ",
+      "votosTotal": 8928,
+      "candidatoLider": "PRISCILA COSTA",
+      "candidatoLiderVotos": 664,
+      "candidatoLiderPerc": 7.4372759856630815
+    },
+    {
+      "bairro": "MONTESE",
+      "votosTotal": 8781,
+      "candidatoLider": "MÁRCIO MARTINS",
+      "candidatoLiderVotos": 1073,
+      "candidatoLiderPerc": 12.219564969821205
+    },
+    {
+      "bairro": "CRISTO REDENTOR",
+      "votosTotal": 8762,
+      "candidatoLider": "CLAUDIO LIMA",
+      "candidatoLiderVotos": 2322,
+      "candidatoLiderPerc": 26.500798904359733
+    },
+    {
+      "bairro": "CONJUNTO ESPERANÇA",
+      "votosTotal": 8637,
+      "candidatoLider": "JÂNIO HENRIQUE",
+      "candidatoLiderVotos": 1731,
+      "candidatoLiderPerc": 20.041681139284474
+    },
+    {
+      "bairro": "PLANALTO AYRTON SENNA",
+      "votosTotal": 8534,
+      "candidatoLider": "CHIQUINHO DOS CARNEIROS",
+      "candidatoLiderVotos": 4978,
+      "candidatoLiderPerc": 58.3313803609093
+    },
+    {
+      "bairro": "CENTRO",
+      "votosTotal": 8305,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 862,
+      "candidatoLiderPerc": 10.379289584587598
+    },
+    {
+      "bairro": "MANOEL SÁTIRO",
+      "votosTotal": 8112,
+      "candidatoLider": "TIA FRANCISCA",
+      "candidatoLiderVotos": 1148,
+      "candidatoLiderPerc": 14.151873767258383
+    },
+    {
+      "bairro": "ENGENHEIRO LUCIANO CAVALCANTE",
+      "votosTotal": 8090,
+      "candidatoLider": "PRISCILA COSTA",
+      "candidatoLiderVotos": 769,
+      "candidatoLiderPerc": 9.505562422744127
+    },
+    {
+      "bairro": "SERRINHA",
+      "votosTotal": 8056,
+      "candidatoLider": "PAULO MARTINS",
+      "candidatoLiderVotos": 1394,
+      "candidatoLiderPerc": 17.303872889771597
+    },
+    {
+      "bairro": "GRANJA LISBOA",
+      "votosTotal": 7853,
+      "candidatoLider": "PROFESSOR ENILSON",
+      "candidatoLiderVotos": 738,
+      "candidatoLiderPerc": 9.397682414363938
+    },
+    {
+      "bairro": "VILA PERI",
+      "votosTotal": 7143,
+      "candidatoLider": "PROFESSOR AGUIAR TOBA",
+      "candidatoLiderVotos": 888,
+      "candidatoLiderPerc": 12.4317513649727
+    },
+    {
+      "bairro": "VICENTE PINZON",
+      "votosTotal": 7137,
+      "candidatoLider": "DAYANE COSTA",
+      "candidatoLiderVotos": 1354,
+      "candidatoLiderPerc": 18.97155667647471
+    },
+    {
+      "bairro": "MEIRELES",
+      "votosTotal": 7067,
+      "candidatoLider": "BELLA CARMELO",
+      "candidatoLiderVotos": 1079,
+      "candidatoLiderPerc": 15.268147728880713
+    },
+    {
+      "bairro": "ÁLVARO WEYNE",
+      "votosTotal": 6988,
+      "candidatoLider": "KÁTIA RODRIGUES",
+      "candidatoLiderVotos": 1738,
+      "candidatoLiderPerc": 24.8712077847739
+    },
+    {
+      "bairro": "QUINTINO CUNHA",
+      "votosTotal": 6962,
+      "candidatoLider": "ADAIL JR.",
+      "candidatoLiderVotos": 1416,
+      "candidatoLiderPerc": 20.33898305084746
+    },
+    {
+      "bairro": "TAUAPE",
+      "votosTotal": 6927,
+      "candidatoLider": "PAULO MARTINS",
+      "candidatoLiderVotos": 783,
+      "candidatoLiderPerc": 11.303594629709831
+    },
+    {
+      "bairro": "BARROSO",
+      "votosTotal": 6809,
+      "candidatoLider": "MARCEL COLARES",
+      "candidatoLiderVotos": 1807,
+      "candidatoLiderPerc": 26.538405052136877
+    },
+    {
+      "bairro": "PARQUELÂNDIA",
+      "votosTotal": 6436,
+      "candidatoLider": "MICHEL LINS",
+      "candidatoLiderVotos": 817,
+      "candidatoLiderPerc": 12.69422001243008
+    },
+    {
+      "bairro": "MUCURIPE",
+      "votosTotal": 6111,
+      "candidatoLider": "JOHN MONTEIRO",
+      "candidatoLiderVotos": 1287,
+      "candidatoLiderPerc": 21.06038291605302
+    },
+    {
+      "bairro": "MONTE CASTELO",
+      "votosTotal": 6055,
+      "candidatoLider": "JULIERME SENA",
+      "candidatoLiderVotos": 529,
+      "candidatoLiderPerc": 8.736581337737407
+    },
+    {
+      "bairro": "SIQUEIRA",
+      "votosTotal": 5861,
+      "candidatoLider": "PRISCILA COSTA",
+      "candidatoLiderVotos": 494,
+      "candidatoLiderPerc": 8.428595802764033
+    },
+    {
+      "bairro": "CAIS DO PORTO",
+      "votosTotal": 5719,
+      "candidatoLider": "LEO COUTO",
+      "candidatoLiderVotos": 969,
+      "candidatoLiderPerc": 16.943521594684384
+    },
+    {
+      "bairro": "Fatima",
+      "votosTotal": 5713,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 924,
+      "candidatoLiderPerc": 16.173639068790475
+    },
+    {
+      "bairro": "CIDADE DOS FUNCIONÁRIOS",
+      "votosTotal": 5485,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 726,
+      "candidatoLiderPerc": 13.236098450319053
+    },
+    {
+      "bairro": "VARJOTA",
+      "votosTotal": 5416,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 629,
+      "candidatoLiderPerc": 11.613737075332349
+    },
+    {
+      "bairro": "LAGOA REDONDA",
+      "votosTotal": 5386,
+      "candidatoLider": "CÔNSUL DO POVO",
+      "candidatoLiderVotos": 815,
+      "candidatoLiderPerc": 15.13182324545117
+    },
+    {
+      "bairro": "Dionísio Torres",
+      "votosTotal": 5379,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 981,
+      "candidatoLiderPerc": 18.237590630228667
+    },
+    {
+      "bairro": "JARDIM DAS OLIVEIRAS",
+      "votosTotal": 5370,
+      "candidatoLider": "DUMMAR",
+      "candidatoLiderVotos": 675,
+      "candidatoLiderPerc": 12.569832402234638
+    },
+    {
+      "bairro": "RODOLFO TEÓFILO",
+      "votosTotal": 5105,
+      "candidatoLider": "MICHEL LINS",
+      "candidatoLiderVotos": 1297,
+      "candidatoLiderPerc": 25.406464250734572
+    },
+    {
+      "bairro": "JARDIM IRACEMA",
+      "votosTotal": 4953,
+      "candidatoLider": "WELLINGTON SABÓIA",
+      "candidatoLiderVotos": 434,
+      "candidatoLiderPerc": 8.762366242681203
+    },
+    {
+      "bairro": "ALTO DA BALANÇA",
+      "votosTotal": 4816,
+      "candidatoLider": "GARDEL ROLIM",
+      "candidatoLiderVotos": 808,
+      "candidatoLiderPerc": 16.77740863787375
+    },
+    {
+      "bairro": "JOÃO XXIII",
+      "votosTotal": 4768,
+      "candidatoLider": "EUDES BRINGEL",
+      "candidatoLiderVotos": 516,
+      "candidatoLiderPerc": 10.822147651006711
+    },
+    {
+      "bairro": "CANINDEZINHO",
+      "votosTotal": 4766,
+      "candidatoLider": "JÂNIO HENRIQUE",
+      "candidatoLiderVotos": 1424,
+      "candidatoLiderPerc": 29.878304657994125
+    },
+    {
+      "bairro": "DEMOCRITO ROCHA",
+      "votosTotal": 4619,
+      "candidatoLider": "RAIMUNDO FILHO",
+      "candidatoLiderVotos": 1138,
+      "candidatoLiderPerc": 24.63736739554016
+    },
+    {
+      "bairro": "AUTRAN NUNES",
+      "votosTotal": 4535,
+      "candidatoLider": "ADAIL JR.",
+      "candidatoLiderVotos": 1255,
+      "candidatoLiderPerc": 27.67364939360529
+    },
+    {
+      "bairro": "PANAMERICANO",
+      "votosTotal": 4344,
+      "candidatoLider": "RAIMUNDO FILHO",
+      "candidatoLiderVotos": 1311,
+      "candidatoLiderPerc": 30.17955801104972
+    },
+    {
+      "bairro": "PARQUE DOIS IRMÃOS",
+      "votosTotal": 4343,
+      "candidatoLider": "PRISCILA COSTA",
+      "candidatoLiderVotos": 337,
+      "candidatoLiderPerc": 7.759613170619388
+    },
+    {
+      "bairro": "ITAPERI",
+      "votosTotal": 4291,
+      "candidatoLider": "PAULO MARTINS",
+      "candidatoLiderVotos": 429,
+      "candidatoLiderPerc": 9.997669540899558
+    },
+    {
+      "bairro": "CARLITO PAMPLONA",
+      "votosTotal": 4165,
+      "candidatoLider": "KÁTIA RODRIGUES",
+      "candidatoLiderVotos": 541,
+      "candidatoLiderPerc": 12.98919567827131
+    },
+    {
+      "bairro": "JARDIM AMÉRICA",
+      "votosTotal": 4099,
+      "candidatoLider": "MÁRCIO MARTINS",
+      "candidatoLiderVotos": 2119,
+      "candidatoLiderPerc": 51.695535496462554
+    },
+    {
+      "bairro": "PIRAMBU",
+      "votosTotal": 4073,
+      "candidatoLider": "CLAUDIO LIMA",
+      "candidatoLiderVotos": 1180,
+      "candidatoLiderPerc": 28.971274245028233
+    },
+    {
+      "bairro": "PICI",
+      "votosTotal": 4041,
+      "candidatoLider": "BRUNO MESQUITA",
+      "candidatoLiderVotos": 681,
+      "candidatoLiderPerc": 16.852264291017075
+    },
+    {
+      "bairro": "PAPICU",
+      "votosTotal": 4029,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 460,
+      "candidatoLiderPerc": 11.41722511789526
+    },
+    {
+      "bairro": "BOM FUTURO",
+      "votosTotal": 4020,
+      "candidatoLider": "MÁRCIO MARTINS",
+      "candidatoLiderVotos": 1372,
+      "candidatoLiderPerc": 34.12935323383085
+    },
+    {
+      "bairro": "BENFICA",
+      "votosTotal": 3994,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 516,
+      "candidatoLiderPerc": 12.919379068602904
+    },
+    {
+      "bairro": "PRESIDENTE KENNEDY",
+      "votosTotal": 3878,
+      "candidatoLider": "MICHEL LINS",
+      "candidatoLiderVotos": 411,
+      "candidatoLiderPerc": 10.598246518824137
+    },
+    {
+      "bairro": "PAUPINA",
+      "votosTotal": 3871,
+      "candidatoLider": "LUIZ PAUPINA",
+      "candidatoLiderVotos": 1059,
+      "candidatoLiderPerc": 27.35727202273314
+    },
+    {
+      "bairro": "JACARECANGA",
+      "votosTotal": 3850,
+      "candidatoLider": "JULIERME SENA",
+      "candidatoLiderVotos": 396,
+      "candidatoLiderPerc": 10.285714285714285
+    },
+    {
+      "bairro": "GENIBAÚ",
+      "votosTotal": 3804,
+      "candidatoLider": "EUDES BRINGEL",
+      "candidatoLiderVotos": 442,
+      "candidatoLiderPerc": 11.619348054679286
+    },
+    {
+      "bairro": "PARQUE PRESIDENTE VARGAS",
+      "votosTotal": 3800,
+      "candidatoLider": "JÂNIO HENRIQUE",
+      "candidatoLiderVotos": 1052,
+      "candidatoLiderPerc": 27.684210526315788
+    },
+    {
+      "bairro": "SÃO GERARDO",
+      "votosTotal": 3790,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 519,
+      "candidatoLiderPerc": 13.693931398416886
+    },
+    {
+      "bairro": "SAPIRANGA-COITÉ",
+      "votosTotal": 3661,
+      "candidatoLider": "DR. LUCIANO GIRÃO",
+      "candidatoLiderVotos": 879,
+      "candidatoLiderPerc": 24.009833378858236
+    },
+    {
+      "bairro": "DOM LUSTOSA",
+      "votosTotal": 3581,
+      "candidatoLider": "EUDES BRINGEL",
+      "candidatoLiderVotos": 1055,
+      "candidatoLiderPerc": 29.461044401005303
+    },
+    {
+      "bairro": "PARQUE SANTA MARIA",
+      "votosTotal": 3408,
+      "candidatoLider": "MARCEL COLARES",
+      "candidatoLiderVotos": 658,
+      "candidatoLiderPerc": 19.307511737089204
+    },
+    {
+      "bairro": "JÓQUEI CLUBE",
+      "votosTotal": 3395,
+      "candidatoLider": "EUDES BRINGEL",
+      "candidatoLiderVotos": 289,
+      "candidatoLiderPerc": 8.512518409425626
+    },
+    {
+      "bairro": "JOAQUIM TÁVORA",
+      "votosTotal": 3258,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 413,
+      "candidatoLiderPerc": 12.676488643339473
+    },
+    {
+      "bairro": "DIAS MACEDO",
+      "votosTotal": 3150,
+      "candidatoLider": "PAULO MARTINS",
+      "candidatoLiderVotos": 1039,
+      "candidatoLiderPerc": 32.98412698412698
+    },
+    {
+      "bairro": "PARQUE SÃO JOSÉ",
+      "votosTotal": 2867,
+      "candidatoLider": "TIA FRANCISCA",
+      "candidatoLiderVotos": 856,
+      "candidatoLiderPerc": 29.85699337286362
+    },
+    {
+      "bairro": "JOSÉ BONIFÁCIO",
+      "votosTotal": 2827,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 420,
+      "candidatoLiderPerc": 14.856738592147153
+    },
+    {
+      "bairro": "PRAIA DE IRACEMA",
+      "votosTotal": 2773,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 354,
+      "candidatoLiderPerc": 12.76595744680851
+    },
+    {
+      "bairro": "DE LOURDES",
+      "votosTotal": 2749,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 379,
+      "candidatoLiderPerc": 13.786831575118224
+    },
+    {
+      "bairro": "COCÓ",
+      "votosTotal": 2621,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 397,
+      "candidatoLiderPerc": 15.146890499809231
+    },
+    {
+      "bairro": "MARAPONGA",
+      "votosTotal": 2597,
+      "candidatoLider": "PRISCILA COSTA",
+      "candidatoLiderVotos": 289,
+      "candidatoLiderPerc": 11.128224874855603
+    },
+    {
+      "bairro": "BOA VISTA-CASTELÃO",
+      "votosTotal": 2562,
+      "candidatoLider": "PAULO MARTINS",
+      "candidatoLiderVotos": 343,
+      "candidatoLiderPerc": 13.387978142076504
+    },
+    {
+      "bairro": "PADRE ANDRADE",
+      "votosTotal": 2468,
+      "candidatoLider": "ADAIL JR.",
+      "candidatoLiderVotos": 237,
+      "candidatoLiderPerc": 9.60291734197731
+    },
+    {
+      "bairro": "CIDADE 2000",
+      "votosTotal": 2447,
+      "candidatoLider": "PEDRO MATOS",
+      "candidatoLiderVotos": 285,
+      "candidatoLiderPerc": 11.646914589293011
+    },
+    {
+      "bairro": "CAJAZEIRAS",
+      "votosTotal": 2418,
+      "candidatoLider": "MARCEL COLARES",
+      "candidatoLiderVotos": 286,
+      "candidatoLiderPerc": 11.827956989247312
+    },
+    {
+      "bairro": "JOSÉ DE ALENCAR",
+      "votosTotal": 2401,
+      "candidatoLider": "BRUNO MESQUITA",
+      "candidatoLiderVotos": 381,
+      "candidatoLiderPerc": 15.868388171595168
+    },
+    {
+      "bairro": "JARDIM CEARENSE",
+      "votosTotal": 2338,
+      "candidatoLider": "PRISCILA COSTA",
+      "candidatoLiderVotos": 253,
+      "candidatoLiderPerc": 10.821214713430283
+    },
+    {
+      "bairro": "CAMBEBA",
+      "votosTotal": 1975,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 212,
+      "candidatoLiderPerc": 10.734177215189874
+    },
+    {
+      "bairro": "FARIAS BRITO",
+      "votosTotal": 1971,
+      "candidatoLider": "MICHEL LINS",
+      "candidatoLiderVotos": 377,
+      "candidatoLiderPerc": 19.127346524606796
+    },
+    {
+      "bairro": "AEROLÂNDIA",
+      "votosTotal": 1921,
+      "candidatoLider": "PAULO MARTINS",
+      "candidatoLiderVotos": 461,
+      "candidatoLiderPerc": 23.997917751171265
+    },
+    {
+      "bairro": "DAMAS",
+      "votosTotal": 1888,
+      "candidatoLider": "MÁRCIO MARTINS",
+      "candidatoLiderVotos": 744,
+      "candidatoLiderPerc": 39.40677966101695
+    },
+    {
+      "bairro": "JARDIM GUANABARA",
+      "votosTotal": 1791,
+      "candidatoLider": "RONALDO MARTINS",
+      "candidatoLiderVotos": 143,
+      "candidatoLiderPerc": 7.984366275823563
+    },
+    {
+      "bairro": "Guajiru",
+      "votosTotal": 1782,
+      "candidatoLider": "MARCEL COLARES",
+      "candidatoLiderVotos": 253,
+      "candidatoLiderPerc": 14.19753086419753
+    },
+    {
+      "bairro": "PEDRAS",
+      "votosTotal": 1683,
+      "candidatoLider": "GARDEL ROLIM",
+      "candidatoLiderVotos": 371,
+      "candidatoLiderPerc": 22.043969102792634
+    },
+    {
+      "bairro": "FLORESTA",
+      "votosTotal": 1666,
+      "candidatoLider": "KÁTIA RODRIGUES",
+      "candidatoLiderVotos": 362,
+      "candidatoLiderPerc": 21.728691476590637
+    },
+    {
+      "bairro": "COAÇU",
+      "votosTotal": 1624,
+      "candidatoLider": "LUIZ PAUPINA",
+      "candidatoLiderVotos": 526,
+      "candidatoLiderPerc": 32.389162561576356
+    },
+    {
+      "bairro": "PARQUE MANIBURA",
+      "votosTotal": 1269,
+      "candidatoLider": "PRISCILA COSTA",
+      "candidatoLiderVotos": 188,
+      "candidatoLiderPerc": 14.814814814814813
+    },
+    {
+      "bairro": "AMADEU FURTADO",
+      "votosTotal": 1148,
+      "candidatoLider": "BRUNO MESQUITA",
+      "candidatoLiderVotos": 177,
+      "candidatoLiderPerc": 15.418118466898957
+    },
+    {
+      "bairro": "PARQUE SANTA ROSA",
+      "votosTotal": 1073,
+      "candidatoLider": "JÂNIO HENRIQUE",
+      "candidatoLiderVotos": 213,
+      "candidatoLiderPerc": 19.850885368126747
+    },
+    {
+      "bairro": "NOVO MONDUBIM",
+      "votosTotal": 1058,
+      "candidatoLider": "TIA FRANCISCA",
+      "candidatoLiderVotos": 180,
+      "candidatoLiderPerc": 17.01323251417769
+    },
+    {
+      "bairro": "GUARARAPES",
+      "votosTotal": 985,
+      "candidatoLider": "GABRIEL BIOLOGIA",
+      "candidatoLiderVotos": 137,
+      "candidatoLiderPerc": 13.908629441624365
+    },
+    {
+      "bairro": "CONJUNTO CEARÁ II",
+      "votosTotal": 972,
+      "candidatoLider": "TONY BRITO",
+      "candidatoLiderVotos": 163,
+      "candidatoLiderPerc": 16.76954732510288
+    },
+    {
+      "bairro": "Praia do Futuro",
+      "votosTotal": 663,
+      "candidatoLider": "DAYANE COSTA",
+      "candidatoLiderVotos": 127,
+      "candidatoLiderPerc": 19.1553544494721
+    },
+    {
+      "bairro": "AEROPORTO",
+      "votosTotal": 543,
+      "candidatoLider": "GERMANO HE MAN",
+      "candidatoLiderVotos": 114,
+      "candidatoLiderPerc": 20.994475138121548
+    },
+    {
+      "bairro": "Vila Ellery",
+      "votosTotal": 511,
+      "candidatoLider": "KÁTIA RODRIGUES",
+      "candidatoLiderVotos": 45,
+      "candidatoLiderPerc": 8.806262230919765
+    },
+    {
+      "bairro": "SABIAGUABA",
+      "votosTotal": 349,
+      "candidatoLider": "MARCEL COLARES",
+      "candidatoLiderVotos": 114,
+      "candidatoLiderPerc": 32.664756446991404
+    },
+    {
+      "bairro": "ANCURI",
+      "votosTotal": 342,
+      "candidatoLider": "CHIQUINHO DOS CARNEIROS",
+      "candidatoLiderVotos": 35,
+      "candidatoLiderPerc": 10.23391812865497
+    },
+    {
+      "bairro": "MOURA BRASIL",
+      "votosTotal": 309,
+      "candidatoLider": "JULIERME SENA",
+      "candidatoLiderVotos": 54,
+      "candidatoLiderPerc": 17.475728155339805
+    },
+    {
+      "bairro": "ITAOCA",
+      "votosTotal": 55,
+      "candidatoLider": "RAIMUNDO FILHO",
+      "candidatoLiderVotos": 7,
+      "candidatoLiderPerc": 12.727272727272727
+    },
+    {
+      "bairro": "JOÃOXIII",
+      "votosTotal": 40,
+      "candidatoLider": "DR. LUCIANO GIRÃO",
+      "candidatoLiderVotos": 40,
+      "candidatoLiderPerc": 100
+    },
+    {
+      "bairro": "PARQUE ARAXÁ",
+      "votosTotal": 26,
+      "candidatoLider": "ERICH DOUGLAS",
+      "candidatoLiderVotos": 4,
+      "candidatoLiderPerc": 15.384615384615385
+    }
+  ],
+  "partyStats": [
+    {
+      "partido": "PDT",
+      "codigo": "12",
+      "candCount": 9,
+      "eleitos": 8,
+      "suplentes": 1,
+      "votos": 114214
+    },
+    {
+      "partido": "PL",
+      "codigo": "22",
+      "candCount": 5,
+      "eleitos": 5,
+      "suplentes": 0,
+      "votos": 89867
+    },
+    {
+      "partido": "PSD",
+      "codigo": "55",
+      "candCount": 7,
+      "eleitos": 4,
+      "suplentes": 3,
+      "votos": 76910
+    },
+    {
+      "partido": "AVANTE",
+      "codigo": "70",
+      "candCount": 5,
+      "eleitos": 3,
+      "suplentes": 2,
+      "votos": 49744
+    },
+    {
+      "partido": "PSOL",
+      "codigo": "50",
+      "candCount": 2,
+      "eleitos": 2,
+      "suplentes": 0,
+      "votos": 39773
+    },
+    {
+      "partido": "PT",
+      "codigo": "13",
+      "candCount": 4,
+      "eleitos": 3,
+      "suplentes": 1,
+      "votos": 32978
+    },
+    {
+      "partido": "PRD / PRD25",
+      "codigo": "25",
+      "candCount": 4,
+      "eleitos": 3,
+      "suplentes": 1,
+      "votos": 32412
+    },
+    {
+      "partido": "REPUBLICANOS",
+      "codigo": "10",
+      "candCount": 2,
+      "eleitos": 2,
+      "suplentes": 0,
+      "votos": 28638
+    },
+    {
+      "partido": "UNIÃO",
+      "codigo": "44",
+      "candCount": 3,
+      "eleitos": 2,
+      "suplentes": 1,
+      "votos": 24867
+    },
+    {
+      "partido": "PSB",
+      "codigo": "40",
+      "candCount": 3,
+      "eleitos": 2,
+      "suplentes": 1,
+      "votos": 20712
+    },
+    {
+      "partido": "PODE",
+      "codigo": "20",
+      "candCount": 2,
+      "eleitos": 1,
+      "suplentes": 1,
+      "votos": 15817
+    },
+    {
+      "partido": "DC",
+      "codigo": "27",
+      "candCount": 2,
+      "eleitos": 1,
+      "suplentes": 1,
+      "votos": 12717
+    },
+    {
+      "partido": "PSDB",
+      "codigo": "45",
+      "candCount": 1,
+      "eleitos": 1,
+      "suplentes": 0,
+      "votos": 11355
+    },
+    {
+      "partido": "PP",
+      "codigo": "11",
+      "candCount": 2,
+      "eleitos": 2,
+      "suplentes": 0,
+      "votos": 10205
+    },
+    {
+      "partido": "MOBILIZA",
+      "codigo": "33",
+      "candCount": 1,
+      "eleitos": 1,
+      "suplentes": 0,
+      "votos": 10159
+    },
+    {
+      "partido": "CIDADANIA",
+      "codigo": "23",
+      "candCount": 1,
+      "eleitos": 1,
+      "suplentes": 0,
+      "votos": 10155
+    },
+    {
+      "partido": "AGIR",
+      "codigo": "36",
+      "candCount": 1,
+      "eleitos": 1,
+      "suplentes": 0,
+      "votos": 6037
+    }
+  ]
+}
